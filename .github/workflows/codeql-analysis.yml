@@ -23,8 +23,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: win-10
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
