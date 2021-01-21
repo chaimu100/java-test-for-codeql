@@ -60,6 +60,7 @@ jobs:
     #    uses a compiled language
 
     - run: mvn clean install -Dmaven.test.skip=true -Pintegration-lite-first,integration-lite-second,integration-heavy
+      working-directory: spring-web-modules
     #   make bootstrap
     #   make release
 
