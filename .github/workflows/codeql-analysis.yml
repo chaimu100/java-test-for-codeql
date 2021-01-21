@@ -23,7 +23,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: windows-latest
+    runs-on: win-10
     # runs-on: ubuntu-latest
 
     strategy:
