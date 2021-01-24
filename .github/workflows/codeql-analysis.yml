@@ -59,7 +59,11 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
 
-    - run: mvn clean install -Dmaven.test.skip=true -Pintegration-lite-first,integration-lite-second,integration-heavy
+    - name: change directory
+      run: cd spring-web-modules
+    
+    - name: build
+      run: mvn clean install -Dmaven.test.skip=true
       working-directory: spring-web-modules
     #   make bootstrap
     #   make release
