@@ -64,7 +64,7 @@ jobs:
     
     - name: build
       run: mvn clean install -Dmaven.test.skip=true
-    #  working-directory: spring-web-modules
+      working-directory: spring-web-modules
     #   make bootstrap
     #   make release
 
