@@ -221,7 +221,7 @@
         <zookeeper.version>3.4.11</zookeeper.version>
         <curator.version>4.0.1</curator.version>
         <avaitility.version>1.7.0</avaitility.version>
-        <geode.core>1.6.0</geode.core>
+        <geode.core>1.12.5</geode.core>
         <solr.solr-solrj.version>6.4.0</solr.solr-solrj.version>
     </properties>
 
