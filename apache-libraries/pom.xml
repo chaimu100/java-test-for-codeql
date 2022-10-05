@@ -217,7 +217,7 @@
         <meecrowave-core.version>1.2.1</meecrowave-core.version>
         <meecrowave-maven-plugin.version>1.2.1</meecrowave-maven-plugin.version>
         <opennlp.opennlp-tools.version>1.8.4</opennlp.opennlp-tools.version>
-        <pulsar-client.version>2.1.1-incubating</pulsar-client.version>
+        <pulsar-client.version>2.7.5</pulsar-client.version>
         <zookeeper.version>3.4.11</zookeeper.version>
         <curator.version>4.0.1</curator.version>
         <avaitility.version>1.7.0</avaitility.version>
